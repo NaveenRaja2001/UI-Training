@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2A2B30;
+    font-family: "Roboto", sans-serif;
+}
+/* heading Style */
+.heading {
+    margin: 80px 0 30px 150px;
+}
+/* heading image style */
+.heading img {
+    width: 200px;
+}
+/* nav menu style */
+.menu{
+    position: absolute;
+    top: 75px;
+    text-align: right;
+    right: 150px;
+}
+/* menu-icon style */
+.menu-icon {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #D8D8D8;
+    text-align: right;
+}
+/* menu list style */
+.menu-list{
+    margin-top: 20px;
+    width: 220px;
+    display: none;
+    list-style: none;
+    text-align: left;
+    border: solid;
+}
+/* menu list anchor style */
+.menu-list li a {
+    font-weight: 600;
+    font-size: 13px;
+    padding: 10px 0 10px 20px;
+    display: block;
+    background-color: #EEE;
+    text-decoration: none;
+    color: #000;
+}
+.menu-list li:hover a{
+    background-color: #90B085;
+}
+/* menu list hover */
+.menu:hover .menu-list {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+/* main styles */
+main {
+    width: 85%;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+/* card image styles */
+.card-image img {
+    max-height: 220px;
+    background-color: #24252A;
+    display: inline-block;
+    margin: 40px auto;
+}
+/* card style */
+.card-image{
+    padding: 60px;
+    height: 400px;
+
+    position: relative;
+    background-color: #24252A;
+}
+/* card image container style */
+.card{
+    display: inline-block;
+    width: 22%;
+    margin: 20px;
+}
+/* star icon style */
+.star-icon {
+    font-size: 25px;
+    position: absolute;
+    right: 25px;
+    top: 23px;
+    color: #90B085;
+    background-color: #24252A;
+    cursor: pointer;
+}
+/* colored-staricon styles */
+.colored-staricon {
+    font-size: 25px;
+    position: absolute;
+    right: 25px;
+    top: 23px;
+    color: #90B085;
+    display: none;
+    background-color: #24252A;
+}
+/* staricon hover effect */
+.star-icon:hover~.colored-staricon {
+    display: inline-block;
+}
+/* item-size styles */
+.item-size {
+    width: 50px;
+    padding-top: 13px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -23px;
+    right: 25px;
+    background-color: #90B085;
+    color: #2A2B30;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* card description styles */
+.card-description {
+    color: #fff;
+    padding-top: 15px;
+    /* font-weight: 100; */
+    text-align: left;
+}
+/* card-description h2 styles */
+.card-description h2 {
+    color: #99999a;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 200;
+}
+.card-description h3{
+    font-weight:400 ;
+}
+/* card description buttion styles */
+.card-description button {
+    color: #99999a;
+    padding: 10px 20px;
+    margin-top: 6px;
+    border: 1px #99999a solid;
+    font-weight: 600;
+}
+/* card button styles */
+button:hover {
+    background-color: #91B186;
+    color:#000;
+    border: #90B085 solid 1px;
+    cursor: pointer;
+}
+/* footer style */
+footer {
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    height: 10%;
+    bottom: 0%;
+}
+/* footer text style */
+footer div {
+    color: #EEE;
+    margin-top: 10px;
+    padding: 30px;
+    display: inline-block;
+    background-color: #000;
+    font-size: 20px;
+}
+
+img{
+    max-width: 100%;
+}

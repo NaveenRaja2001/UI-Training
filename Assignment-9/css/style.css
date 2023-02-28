@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main styles */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aqua;
+}
+
+/* cube styles */
+.cube {
+    height: 200px;
+    width: 200px;
+    /* background-color: black; */
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+/* cube hover styles  */
+.cube-cover {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+}
+
+/* styles for each side of cube  */
+.cube div {
+    position: absolute;
+    padding: 10px;
+    background-color: #202d6a;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+/* styles for making the div in cube  */
+.front {
+    background-color: #cb0200 !important;
+    transform: translateZ(100px);
+
+}
+
+.back {
+    transform: translateZ(-100px);
+    background-color: #6726a4 !important;
+}
+
+.right {
+    transform: rotateY(-90deg) translateX(100px);
+    transform-origin: top right;
+}
+
+.left {
+    transform: rotateY(90deg) translateX(-100px);
+    transform-origin: top left;
+}
+
+.top {
+    transform: rotateX(-90deg) translateY(-100px);
+    transform-origin: top center;
+
+}
+
+.bottom {
+
+    transform: rotateX(90deg) translateY(100px);
+    transform-origin: bottom center;
+
+}
+
+/* styles for revolving */
+.cube {
+    animation: revol 2s infinite linear;
+
+}
+
+/* keyframes for revolving */
+@keyframes revol {
+    from {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+
+    to {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+
+/* styles for to and for motion */
+.cube-cover {
+    animation: saver infinite 5s linear;
+}
+
+/* keyframes for to and for motion  */
+@keyframes saver {
+    0% {
+        left: 100px;
+        top: 700px;
+    }
+
+    25% {
+        left: 350px;
+        top: 50px;
+    }
+
+    40% {
+        left: 700px;
+        top: 700px;
+    }
+
+    60% {
+        left: 900px;
+        top: 50px;
+    }
+
+    90% {
+        left: 1200px;
+        top: 700px;
+    }
+
+    100% {
+        left: 1400px;
+        top: 50px;
+    }
+}
+
+/* .cube div:hover{
+    background-color: #cb0200;
+} */

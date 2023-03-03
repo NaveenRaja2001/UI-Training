@@ -1,0 +1,52 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  /* header styles  */
+header h1{
+    padding: 30px;
+    background-color: #372063;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+}
+  /* main styles  */
+main{
+    margin: 60px auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+}
+ /* container styles  */
+.container{
+    width: 505px;
+    height: 110px;
+    padding: 15px;
+    background-color: #5167af;
+    color: white;
+    display: flex;
+}
+/* name container styles  */
+.name-container {
+    margin: 12px 25px;
+}
+/* name styles  */
+.name {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+/* email styles  */
+.email {
+    font-size: 15px;
+    font-weight: 200;
+}
+/* image styles  */
+img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}

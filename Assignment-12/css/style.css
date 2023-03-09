@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+  /* body styles  */
+body {
+    background-color: black;
+}
+  /* header styles  */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #aae187;
+}
+   /* header title styles */
+header div {
+    padding: 27px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+  /* container styles  */
+.container {
+    width: 50%;
+    margin: auto;
+    margin-top: 150px;
+}
+  /* container title styles */
+.container h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    padding: 90px;
+}
+  /* shapes container styles  */
+.shapes {
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+ /* circle styles  */
+.circle {
+    height: 150px;
+    width: 150px;
+    background-color: #00987c;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+  /* traingle styles  */
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 150px solid #ffaadc;
+    position: relative;
+    cursor: pointer;
+}
+/* square styles  */
+.square {
+    height: 150px;
+    width: 150px;
+    background-color: #e0e0e0;
+    position: relative;
+    cursor: pointer;
+}
+ /* tick symbol styles  */
+.tick {
+    color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+    display: none;
+    font-size: 76px;
+}
+ /* traingle tick symbol styles  */
+.triangle .tick {
+    margin-left: -40px;
+    margin-top: 50px;
+
+}
+ /* button div styles  */
+.button {
+    text-align: center;
+    padding: 95px;
+    display: none;
+    /* color: yellowgreen; */
+}
+ /* next button styles  */
+.button button {
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    background-color: black;
+    border: solid 2px;
+    padding: 10px 70px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  /* calculate container styles  */
+.sub-container {
+    width: 45%;
+    text-align: center;
+    margin: 300px auto;
+    display: none;
+}
+  /* calculate container title styles  */
+.sub-container h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+}
+ /* calculate input styles  */
+.input-radius input {
+    background-color: black;
+    width: 720px;
+    border: white solid 2px;
+    height: 80px;
+    margin-top: 60px;
+    color: white;
+    font-size: 40px;
+    padding: 30px;
+    
+}
+ /* calculate container button  */
+.sub-container button{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    padding: 13px 40px;
+    border-radius: 5px;
+    border: solid white;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.sub-container button::-webkit-inner-spin-button {
+    background-color: black;
+    color: white;
+}
+ /* output container styles  */
+.output-container {
+    width: 45%;
+    margin: auto;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+/* output container styles  */
+.output-container h2 {
+    color: white;
+    font-size: 45px;
+    font-weight: 400;
+    margin: 30px;
+}
+/* table styles  */
+.output-container table {
+    color: white;
+    width: 450px;
+    border-spacing: 0 20px;
+
+}
+/* output container styles  */
+.output-container button {
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    padding: 13px 40px;
+    border-radius: 5px;
+    border: solid white;
+    margin-top: 85px;
+    cursor: pointer;
+}
+/* table title & table value box styles  */
+.tableTitle,
+.tableValue {
+    padding: 15px 15px;
+    /* margin-right:20px ; */
+    background-color: #0e62d6;
+}
+/* table formula box styles  */
+.tableFormula {
+    padding: 15px 15px;
+    background-color: #455e7f;
+}
+
+.dd {
+    display: block;
+}
+
+/* input:-webkit-autofill{
+    background-color: black !important;
+    color: #aae187;
+} */
+
+.error{
+    color: #fff;
+    font-size: 30px;
+}

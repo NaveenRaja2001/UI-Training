@@ -1,0 +1,230 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* logo container styles  */
+.image-container {
+    width: 300px;
+    margin: -60px auto -40px;
+}
+
+/* tabs styles  */
+#tabs {
+    width: 630px;
+    margin: auto;
+    height: 630px;
+    border-width: 0;
+}
+
+/* switch button link styles  */
+.switch-button a {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 3px 15px;
+}
+
+#tabs .switch-button {
+    padding-left: 30px;
+}
+
+/* switch button hover effects */
+.switch-button a:hover {
+    cursor: pointer;
+}
+
+/* card image styles  */
+.card-image {
+    width: 100%;
+}
+
+/* tab switch button styles  */
+#tabs .switch-button {
+    padding-left: 30px;
+}
+
+/* switch button hover effect styles  */
+.switch-button a:hover {
+    cursor: pointer;
+}
+
+/* tabs li styles */
+#tabs li {
+    margin-right: 15px;
+}
+
+/* tabs paragraph styles  */
+#tabs-1 p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1.5;
+    padding: 15px 5px 20px;
+}
+
+/* accordian div styles  */
+#accordion div {
+    height: 120px;
+}
+
+/* @override  */
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+    border: 1px solid #c5c5c5;
+    background: black;
+    border-radius: 5px 5px 0 0;
+    font-weight: normal;
+    color: white;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    border: 1px solid #001c72;
+    border-radius: 5px 5px 0 0;
+    background: #001c72;
+    color: #ffffff;
+}
+
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited,
+a.ui-button,
+a:link.ui-button,
+a:visited.ui-button,
+.ui-button {
+    color: white;
+    text-decoration: none;
+}
+
+/* tab-3 styles  */
+#tabs-3 {
+    max-height: 560px;
+    overflow: scroll;
+}
+
+/* table styles  */
+table {
+    width: 100%;
+    padding: 5px 7px;
+    border-spacing: 0 10px;
+    border-width: 10px 10px;
+}
+
+/* table column styles */
+table td {
+    text-align: left;
+}
+
+/* column last child styles  */
+table td:last-child {
+    text-align: right;
+    padding-right: 12px;
+}
+
+/* column last child styles  */
+table td:first-child {
+    width: 70px;
+}
+
+/* table row styles  */
+table tr {
+    height: 40px;
+    font-size: 13px;
+}
+
+/* table row odd styles  */
+table tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
+
+/* table row even styles  */
+table tr:nth-child(even) {
+    background-color: #f2d9f7;
+}
+
+/* second column styles  */
+table td:nth-child(2) {
+    width: 160px;
+}
+
+.ui-tabs .ui-tabs-panel {
+    display: block;
+    border-width: 8;
+    padding: 1em 1.4em;
+    background: none;
+    box-shadow: grey 0 0 4px;
+}
+
+/* switch button styles  */
+.switch-button {
+    background-color: white;
+    border: none;
+}
+
+#tabs-2 .ui-state-active,
+#tabs-2 .ui-widget-content .ui-state-active,
+#tabs-2 .ui-widget-header .ui-state-active,
+#tabs-2 a.ui-button:active,
+#tabs-2 .ui-button:active,
+#tabs-2 .ui-button.ui-state-active:hover {
+    border: 1px solid rgb(94 158 214);
+    border-radius: 5px 5px 0 0;
+    background: #001c72;
+    color: #ffffff;
+}
+
+.img-table-container {
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+/* table iamge styles  */
+table img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+/* accordion heading styles  */
+#accordion .heading {
+    border-radius: 0;
+    background: #808eb9;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 11px 0;
+}
+
+/* accordian paragraph styles  */
+#accordian p {
+    font-size: 3px;
+}
+
+/* accordion styles  */
+.ui-accordion .ui-accordion-content {
+    padding: 5px 15px;
+    border-top: 0;
+    font-size: 11px;
+}
+
+/* accordion header styles  */
+.ui-accordion .ui-accordion-header {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    margin: 10px 0 0 0;
+    padding: 0.5em 0.5em 0.5em 0.7em;
+    font-size: 100%;
+}
+
+/* tabs styles  */
+#tabs-2 {
+    height: 560px;
+}
